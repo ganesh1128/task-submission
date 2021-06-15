@@ -1,0 +1,28 @@
+HTTP 1.1
+ Persistent conection means that a single tcp connection can used for multiple http requests(6connections).
+ It process one request process at a time through tcp connection.
+ TCP connetion gets blocked till the response is received.
+ The tcp connction established between client and server are limited.
+ Low latency which describes a computer network that is optimized to process a very high volume of data messages with minimal delay.
+ HOL-head of line blocking. 
+ Header information repeated with every request.
+ TCP Keepalive Packets can be used to determine if the connection is still valid, and terminate it if needed.
+ Keep-alive option enables re-using of the same tcp connection to multiple http reqests.
+
+HTTP 2
+ It makes web more secure.
+ One secured tcp connection is setup in which http requests are transformed in the form of streams.
+ It allows (multiplexing) it means the browser can request and receive many different files at the same time 
+ It solve the head-of-line blocking problem.
+ HPACK header data is separated from the request data and can be zipped.Headers are compressed.
+ HPACK also enables reuse of header data which is repeated in every request.It reduces the request size.
+ Doest wait for one file to finish before starting the dowload of next one.
+ Binary protocals consume less bandwidth are more efficiently parsed and less error prone compared to http 1.1.
+ Server Push likely to be used resources into a browser’s cache, even before they are requested.
+ Push frames used carfully as this can lead to increase the size of the http response. 
+ Upgrade  Transport Layer Security (TLS)  Application-Layer Protocol Negotiation (ALPN) Negotiation.
+ 
+
+
+
+
