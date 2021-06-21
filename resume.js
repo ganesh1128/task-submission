@@ -5,6 +5,8 @@ var obj =
       " firstname ": "Gollavilli",
       "middle_name": "Ganesh",
       "last_name": "Kumar",
+      "house_no" : "SFA 144",
+      "area"     : "AutoNagar"
       "city ": "Visakhaptnam",
       "State": "AndhraPradesh",
       "Email": "ganeshgollavilli@gmail.com"
