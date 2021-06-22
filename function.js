@@ -1,3 +1,4 @@
+print odd numbers in a array
 
 (function(){
 
@@ -7,8 +8,9 @@
 })();
 
 
-
- (function(){
+print title case 
+ 
+(function(){
     let str = "ganesh kumar"
     let b = str.split(' ');
     let output = [];
@@ -18,7 +20,8 @@
       console.log(output.join(" "))
     })();
 
-    
+sum of the numbers in a array
+
 (function(){
 let array = [1,2,3,4]
 var sum = array.reduce(function(a, b){
@@ -27,6 +30,7 @@ var sum = array.reduce(function(a, b){
 console.log(sum);
    })();
 
+print sum of the median of the array
 
 (function(){
 let a = [1,2,3]
@@ -39,6 +43,7 @@ for(i=0;i<a.length;i++){
 console.log(sol)
 })();
 
+print prime numbers in the array
 
 (function(){
 const Array = [1, 3, 2, 5, 10];
@@ -52,6 +57,7 @@ const prime = Array.filter(function(num) {
 console.log(prime);
 })();
 
+print pallendromes in the array
 
 (function(){
     var a = [11,12,22,34,44];
@@ -66,12 +72,15 @@ console.log(prime);
         console.log(n.join(' '))
 })();
 
+remove duplicates and print the array
 
 (function(){
     var a = [1,1,2,3,4,5,2,6,7,8,4,3,7,6,5,9,7,5]
     var d = new Set(a)
     console.log(...d)
 })();
+
+rotate an array by k times
 
 (function(){
 let a = [1, 2, 3, 4, 5];
