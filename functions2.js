@@ -1,4 +1,4 @@
-function odd(){
+let odd = () => {
 
     let arr = [4,5,7,8,14,45,76];
     let b = arr.filter(num => num % 2 !== 0);
@@ -7,7 +7,7 @@ function odd(){
 odd();
 
 
-function titleCaps(){
+let titleCaps =() => {
     let str = "ganesh kumar"
     let b = str.split(' ');
     let output = [];
@@ -18,7 +18,7 @@ function titleCaps(){
     }
     titleCaps();
 
-function sumofArray(){
+let sumofArray =() => {
     let array = [1,2,3,4]
     var sum = array.reduce((a, b) => {
         return a + b;
@@ -27,7 +27,7 @@ function sumofArray(){
 }
 sumofArray();
 
-function primeArray(){
+let primeArray = () =>{
     const Array = [1, 3, 2, 5, 10];
     const prime = Array.filter(num => {
       for (let i = 2; i < num; i++) {
@@ -40,7 +40,7 @@ function primeArray(){
     }
     primeArray();
 
-function pallendromeArray(){
+let pallendromeArray = () => {
     var a = [11,12,22,34,44,121];
      var n = []
      for(i=0;i<a.length;i++){
